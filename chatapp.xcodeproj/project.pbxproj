@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4626DF78289ED36300250B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4626DF76289ED36300250B58 /* Main.storyboard */; };
-		463DA5E7289F976300B432CD /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 463DA5E6289F976300B432CD /* MessageCell.xib */; };
+		463C263E28E1572E00126274 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C263D28E1572E00126274 /* ChatViewController.swift */; };
+		463C264028E1577700126274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463C263F28E1577700126274 /* Assets.xcassets */; };
+		467E476728E0C007002D4A03 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 467E476628E0C007002D4A03 /* MessageCell.xib */; };
+		467E476C28E0CCED002D4A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467E476B28E0CCED002D4A03 /* Main.storyboard */; };
 		46B3C568289E8B3B00B7175A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B3C567289E8B3B00B7175A /* AppDelegate.swift */; };
 		46B3C56A289E8B3B00B7175A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B3C569289E8B3B00B7175A /* SceneDelegate.swift */; };
 		46B3C574289E8B3C00B7175A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B3C572289E8B3C00B7175A /* LaunchScreen.storyboard */; };
@@ -49,8 +51,6 @@
 		46CD0AAA289E91AB00596292 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD0AA9289E91AB00596292 /* Constants.swift */; };
 		46CD0AAE289E920A00596292 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD0AAD289E920A00596292 /* Message.swift */; };
 		46CD0AB2289E939500596292 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46CD0AB1289E939500596292 /* GoogleService-Info.plist */; };
-		46CD0AB4289E950600596292 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CD0AB3289E950500596292 /* Assets.xcassets */; };
-		46CD0AB6289E971E00596292 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD0AB5289E971E00596292 /* ChatViewController.swift */; };
 		46CD0ABA289E9BB000596292 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CD0AB9289E9BB000596292 /* MessageCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,8 +72,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4626DF77289ED36300250B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../Documents/Flash-Chat-iOS13-Completed/Flash Chat iOS13/Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		463DA5E6289F976300B432CD /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageCell.xib; path = "../../../../../../Documents/Flash-Chat-iOS13-Completed/Flash Chat iOS13/Views/MessageCell.xib"; sourceTree = "<group>"; };
+		463C263D28E1572E00126274 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		463C263F28E1577700126274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467E476628E0C007002D4A03 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		467E476B28E0CCED002D4A03 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		46B3C564289E8B3B00B7175A /* chatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B3C567289E8B3B00B7175A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46B3C569289E8B3B00B7175A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,8 +92,6 @@
 		46CD0AA9289E91AB00596292 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		46CD0AAD289E920A00596292 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		46CD0AB1289E939500596292 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		46CD0AB3289E950500596292 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../Flash-Chat-iOS13/Flash Chat iOS13/Assets.xcassets"; sourceTree = "<group>"; };
-		46CD0AB5289E971E00596292 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatViewController.swift; path = "../../../Flash-Chat-iOS13/Flash Chat iOS13/Controllers/ChatViewController.swift"; sourceTree = "<group>"; };
 		46CD0AB9289E9BB000596292 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,8 +151,7 @@
 		46106C00289ED9B400E77834 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4626DF76289ED36300250B58 /* Main.storyboard */,
-				463DA5E6289F976300B432CD /* MessageCell.xib */,
+				467E476628E0C007002D4A03 /* MessageCell.xib */,
 				46CD0AB9289E9BB000596292 /* MessageCell.swift */,
 			);
 			path = Views;
@@ -191,9 +190,10 @@
 			children = (
 				46B3C567289E8B3B00B7175A /* AppDelegate.swift */,
 				46B3C569289E8B3B00B7175A /* SceneDelegate.swift */,
+				467E476B28E0CCED002D4A03 /* Main.storyboard */,
+				463C263F28E1577700126274 /* Assets.xcassets */,
 				46106C01289ED9D900E77834 /* Modal */,
 				46106C00289ED9B400E77834 /* Views */,
-				46CD0AB3289E950500596292 /* Assets.xcassets */,
 				46CD0AA0289E916400596292 /* Controllers */,
 				46CD0AA9289E91AB00596292 /* Constants.swift */,
 				46B3C572289E8B3C00B7175A /* LaunchScreen.storyboard */,
@@ -223,7 +223,7 @@
 		46CD0AA0289E916400596292 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				46CD0AB5289E971E00596292 /* ChatViewController.swift */,
+				463C263D28E1572E00126274 /* ChatViewController.swift */,
 				46CD0AA3289E917E00596292 /* LoginViewController.swift */,
 				46CD0AA1289E917E00596292 /* RegisterViewController.swift */,
 				46CD0AA2289E917E00596292 /* WelcomeViewController.swift */,
@@ -369,11 +369,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				463DA5E7289F976300B432CD /* MessageCell.xib in Resources */,
+				467E476728E0C007002D4A03 /* MessageCell.xib in Resources */,
+				467E476C28E0CCED002D4A03 /* Main.storyboard in Resources */,
 				46B3C574289E8B3C00B7175A /* LaunchScreen.storyboard in Resources */,
 				46CD0AB2289E939500596292 /* GoogleService-Info.plist in Resources */,
-				4626DF78289ED36300250B58 /* Main.storyboard in Resources */,
-				46CD0AB4289E950600596292 /* Assets.xcassets in Resources */,
+				463C264028E1577700126274 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,8 +404,8 @@
 				46B3C568289E8B3B00B7175A /* AppDelegate.swift in Sources */,
 				46B3C56A289E8B3B00B7175A /* SceneDelegate.swift in Sources */,
 				46CD0AA5289E917E00596292 /* RegisterViewController.swift in Sources */,
-				46CD0AB6289E971E00596292 /* ChatViewController.swift in Sources */,
 				46CD0AAA289E91AB00596292 /* Constants.swift in Sources */,
+				463C263E28E1572E00126274 /* ChatViewController.swift in Sources */,
 				46CD0ABA289E9BB000596292 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,14 +443,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4626DF76289ED36300250B58 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4626DF77289ED36300250B58 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46B3C572289E8B3C00B7175A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -585,6 +577,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = chatapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = chatapp;
 				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -612,6 +605,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = chatapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = chatapp;
 				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
